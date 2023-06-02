@@ -1,9 +1,3 @@
-/*
-eXe
-Copyright 2004-2006, University of Auckland
-Copyright 2004-2007 eXe Project, New Zealand Tertiary Education Commission
-base style sheet for all themes
-*/
 
 body{margin:0;padding:0 10px 10px 10px;font-family:arial,verdana,helvetica,sans-serif;font-size:.8em}
 #header{text-align:left;height:50px;padding-left:20px;font-size:2.2em;font-weight:bold}
@@ -20,8 +14,8 @@ li{list-style-position:inside}
 .iDeviceTitle{font-weight:bold;position:relative;top:-18px;/* aligns title up with middle of icon */}
 input.feedbackbutton{margin-top:10px;margin-bottom:10px}
 /* 'tips for completion' and 'pedagogical help' */
-.popupDiv{background-color:#EDEFF0;border:2px solid #607489;padding:0 4px 4px 4px;margin-left:15px;text-align:left;z-index:99;border-radius:3px}
-.popupDivLabel{text-align:center;font:message-box;font-weight:bold;color:#fff;cursor:move;margin:0 -4px;background-image:url(popup_bg.gif)}
+.popupDiv{background-color:#000000;border:2px solid #000000;padding:0 4px 4px 4px;margin-left:15px;text-align:left;z-index:99;border-radius:3px}
+.popupDivLabel{text-align:center;font:message-box;font-weight:bold;color:#ff0000;cursor:move;margin:0 -4px;background-image:url(popup_bg.gif)}
 @media print{
     .feedback{display:block!important}
     .feedbackbutton,.feedback-button{display:none!important}
@@ -30,7 +24,7 @@ input.feedbackbutton{margin-top:10px;margin-bottom:10px}
 }
 /* The New eXeLearning */
 /* Include these styles in the old themes */
-.pre-code{background:#112C4A;color:#E7ECF1;font-family:Monaco,Courier,monospace;border-radius:9px;font-size:12px;margin:2em 1em;overflow:auto;padding:20px}
+.pre-code{background:#ff0000;color:#0080ff;font-family:Monaco,Courier,monospace;border-radius:9px;font-size:12px;margin:2em 1em;overflow:auto;padding:20px}
 .iDevice_content{position:relative;max-width:100%}
 .exe-epub3 .iDevice_content{position:static}
 .iDevice_header{background-position:0 50%;background-repeat:no-repeat}
@@ -74,5 +68,5 @@ input.feedbackbutton{margin-top:10px;margin-bottom:10px}
 /* Accessibility */
 #skipNav{margin:0;position:absolute;width:100%}
 .sr-av,.js .js-sr-av,#skipNav a,.exe-hidden-accessible{position:absolute;overflow:hidden;clip:rect(0 0 0 0);clip:rect(0,0,0,0);height:0} /* sr-av: Avaible for Screen Readers */
-#skipNav a{background:#333;color:#fff;padding:.4em .85em} /* clip:rect(0 0 0 0) is for IE6 & 7 */
+#skipNav a{background:#ac3434;color:#e00000;padding:.4em .85em} /* clip:rect(0 0 0 0) is for IE6 & 7 */
 #skipNav a:active,#skipNav a:focus{position:static;overflow:visible;clip:auto;height:auto}

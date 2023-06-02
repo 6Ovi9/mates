@@ -5,12 +5,12 @@ garden theme display styles.
 Modified by eXeLearning.net
 */
 html{padding:0}
-body{font:.75em/1.5 Arial,Verdana,Helvetica,sans-serif;padding:15px;margin:0;text-align:left;color:#222;background:#F2FFBF}
-a{color:#E65C00}
-a:hover,a:focus{color:#B34700}
+body{font:.75em/1.5 Arial,Verdana,Helvetica,sans-serif;padding:15px;margin:0;text-align:left;color:green;background:#b0eb42}
+a{color:#14596D}
+a:hover,a:focus{color:#14596D}
 #header,#emptyHeader{text-align:left;height:3em;padding-left:0;font-size:1.5em;line-height:3em;text-shadow:1px 1px 1px #fff;border-bottom:2px solid #ACBF60;border-top:2px solid #ACBF60;color:#889F65} /* Header is also in single page */
 #header h1{margin:0;font-size:1em}
-#nodeDecoration{text-align:left;padding:1em 0;margin-bottom:2em;background:#F3FFC3;text-shadow:1px 1px 1px #fff;border-bottom:2px solid #ACBF60;border-top:2px solid #ACBF60;color:#889F65}
+#nodeDecoration{text-align:left;padding:1em 0;margin-bottom:2em;background:#00c8ff;text-shadow:1px 1px 1px #fff;border-bottom:2px solid #ACBF60;border-top:2px solid #ACBF60;color:#889F65}
 #nodeTitle,.nodeTitle{font-size:1.5em;margin:0;font-weight:bold;text-align:right} /* .nodeTitle when single page */
 .nodeTitle{padding:.1em 0 .6em 0;border-bottom:2px solid #ACBF60;margin-top:1em;text-align:right;color:#889F65;text-shadow:1px 1px 1px #fff}
 #main h2{font-size:1.4em}
